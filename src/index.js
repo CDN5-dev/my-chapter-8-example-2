@@ -10,7 +10,6 @@ if (!process.env.PORT) {
     throw new Error("Please specify the port number for the HTTP server with the environment variable PORT.");
 }
 
-console.log("Hello, Connor!");
 
 //
 // Extracts the PORT environment variable.
